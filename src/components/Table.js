@@ -50,12 +50,12 @@ function Table(props) {
     <Container>
       <div className="table-responsive">
         <table className="table table-hover text-center">
-          <thead className="thead-dark">
+          <thead className="bg-info text-white">
             <tr>
               <th scope="col">Image</th>
               <th scope="col">
                 <button
-                  className="btn btn-primary"
+                  className="btn btn-secondary"
                   onClick={props.reverseOrder}
                 >
                   Name
